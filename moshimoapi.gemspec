@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
-  s.add_development_dependency "libxml-ruby"
+  s.add_development_dependency "libxml-ruby", "~> 2.4.0" 
 end
