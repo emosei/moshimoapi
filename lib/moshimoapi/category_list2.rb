@@ -146,7 +146,6 @@ module MoshimoAPI
     def get_category( code =nil )
       xml = ""
       url = category2_url(code)
-      p url
       open( url ) do | str_io |
         xml = str_io.read
       end
